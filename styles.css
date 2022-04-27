@@ -1,0 +1,29 @@
+
+
+header h2{
+    position:absolute;
+    margin-top: 1px;
+    left:20%;
+}
+
+header{
+    padding: 60px;
+    background: #1f2937;
+}
+
+
+header h2{
+    
+    color:#F9FAF8;
+    font-size: 24px;
+    height: 1vh;
+}
+
+.header-container{
+    display:flex;
+}
+.header-container div{
+    flex:1;
+    font-size: 18px;
+    color: #E5E7EB  
+}
