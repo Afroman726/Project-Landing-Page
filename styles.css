@@ -53,7 +53,7 @@ body{
 .body {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex:1 1 0px;
     height:100%;
     
     
@@ -65,12 +65,15 @@ body{
     background: #1f2937;
     color: #E5E7EB;
     flex-grow:1;
+    align-items: center;
 }
 
 .left{
     margin-left:80px;
+    display:flex;
     flex:1;
-   
+    flex-direction: column;
+    
 
 }
 
@@ -78,13 +81,15 @@ body{
     font-size: 48px;
     font-weight: bolder;
     margin-top:90px;
-    flex:1;
-    flex-shrink: 0;
+    
+    
+
 }
 
 .blue-button{
     background-color: #3882f6;
     color:white;
+    border:3px #3882f6;
 }
 
 .right{
@@ -100,13 +105,21 @@ body{
     flex-wrap:wrap;
     flex-grow:1;
     flex-direction: column;
-    width:1134px;
+    
     height:351px;
+}
+
+#top{
+    font-weight: 900;
+    font-size: 36px;
+    color:#1f2937;
+    text-align: center;
 }
 #bottom{
     display:flex;
     flex-wrap:wrap;
     height:auto;
+    flex:1;
 
 }
 .box{
