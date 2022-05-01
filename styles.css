@@ -69,6 +69,7 @@ body{
 
 .left{
     margin-left:80px;
+    flex:1;
    
 
 }
@@ -77,13 +78,20 @@ body{
     font-size: 48px;
     font-weight: bolder;
     margin-top:90px;
+    flex:1;
+    flex-shrink: 0;
+}
 
+.blue-button{
+    background-color: #3882f6;
+    color:white;
 }
 
 .right{
     
    right:20%;
     margin-left: 25px;
+    flex:1;
 }
 
 .container-2{
