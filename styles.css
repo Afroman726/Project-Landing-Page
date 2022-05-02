@@ -89,7 +89,9 @@ body{
 .blue-button{
     background-color: #3882f6;
     color:white;
-    border:3px #3882f6;
+    border:7px #3882f6;
+    width:75px;
+    text-align: center;
 }
 
 .right{
@@ -126,11 +128,19 @@ body{
     flex:1 1 0%;
     width:25px;
     height:auto;
+    border: 7px solid #3882f6;
 }
 
 .container-3{
     background-color: #E5E7EB;
     flex-grow:1;
+    display:flex;
+    justify-content: center;
+}
+.v-box{
+    flex:1 1 0%;
+    justify-content: center;
+
 }
 
 .container-4{
