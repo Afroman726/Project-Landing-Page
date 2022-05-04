@@ -94,12 +94,13 @@ body{
     background-color: #3882f6;
     color:white;
     border:19px #3882f6;
+    padding-top:10px;
     width:125px;
     height: 35px;
     text-align:center;
+   
     margin-top:25px;
     border-radius: 19px;
-    
 }
 
 .right{
@@ -124,6 +125,8 @@ body{
 }
 
 #top{
+    display:block;
+    padding: 15px;
     font-weight: 900;
     font-size: 36px;
     color:#1f2937;
@@ -138,8 +141,8 @@ body{
 
 }
 .box{
-    flex:1 1 0%;
-    width:25px;
+    flex:0 1 0%;
+    width:75px;
     height:auto;
     padding:25px;
     border: 7px solid #3882f6;
