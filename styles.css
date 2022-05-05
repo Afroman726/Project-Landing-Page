@@ -131,39 +131,47 @@ body{
     font-size: 36px;
     color:#1f2937;
     text-align: center;
+    margin-bottom: 20px;
 }
 #bottom{
     display:flex;
     flex-wrap:wrap;
-    height:auto;
+    height:300px;
     flex:1;
     justify-content: center;
 
 }
 .box{
     flex:0 1 0%;
-    width:75px;
-    height:auto;
+    width:155px;
+    height:160px;
     padding:25px;
+    margin-top: 10px;
+    margin:15px;
     border: 7px solid #3882f6;
-   
+    border-radius: 7px;
 }
 
 .container-3{
     background-color: #E5E7EB;
-    flex:1;
     display:flex;
     justify-content: center;
+    flex-direction: column;
 }
 .v-box{
-    flex:1 1 0%;
-    justify-content: center;
+    display: block;
+    width: 350px;
+    text-align: center;
+    font-size: 23px;
+    height: 200px;
+    font-style: italic;
 
 }
 
 .container-4{
     background-color: white;
     flex:1;
+    height: 350px;
 }
 
 footer{
