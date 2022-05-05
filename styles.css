@@ -11,7 +11,6 @@ body{
 }
 .container{
     width:90%;
-    height: 100vh;
     margin: 0 auto;
 }
   header{
@@ -136,7 +135,7 @@ body{
 #bottom{
     display:flex;
     flex-wrap:wrap;
-    height:300px;
+    height:400px;
     flex:1;
     justify-content: center;
 
@@ -152,19 +151,29 @@ body{
     border-radius: 7px;
 }
 
-.container-3{
+.container-3  /* Inspirational quote */
+{   
     background-color: #E5E7EB;
     display:flex;
     justify-content: center;
     flex-direction: column;
+    flex:1;
 }
 .v-box{
-    display: block;
+    flex:1;
     width: 350px;
-    text-align: center;
+    text-align: right;
     font-size: 23px;
     height: 200px;
     font-style: italic;
+
+}
+
+  #quote-name{
+    flex:1;
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
 
 }
 
